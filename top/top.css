@@ -1,0 +1,21 @@
+@charset "UTF-8";
+H2{
+    color: palevioletred;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body > img{
+    height: auto;
+    width: 100%;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
