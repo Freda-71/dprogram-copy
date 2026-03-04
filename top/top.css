@@ -1,6 +1,6 @@
 @charset "UTF-8";
 H2{
-    color: palevioletred;
+    color: rgb(48, 48, 48);
 }
 
 header{
@@ -15,7 +15,82 @@ body > img{
 }
 
 div{
+    width: 800px;
+}
+
+.introduction{
+    border-top: solid gray  0.5px;
+    border-bottom: solid gray  0.5px;
+    padding: 10px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction > p{
+    color: (48, 48, 48)
+}
+
+.pickup{
+    padding: 5px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pickupbn{
     display: flex;
     align-items: center;
+    justify-content: space-between
+}
+
+.pickupbn1,
+.pickupbn2,
+.pickupbn3,
+.pickupbn4{
+    padding: 10px;
+}
+
+.pickupbn1 > img,
+.pickupbn2 > img,
+.pickupbn3 > img,
+.pickupbn4 > img{
+    height: 175px;
+    width: 175px;
+}
+
+.pickupbn1 > a,
+.pickupbn2 > a,
+.pickupbn3 > a,
+.pickupbn4 > a{
+    color: #1c30e467;
+    text-align: right;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.category{
+    padding: 5px;
+    display: flex;
+    align-items: left;
     flex-direction: column;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+h4{
+    color: gray;
+}
+
+.product > img{
+    height: 100px;
+    width: 100px;
 }
