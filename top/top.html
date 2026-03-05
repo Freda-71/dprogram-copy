@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <img src="../image/icon/logo.png" alt="logo">
     <img src="../image/icon/menu.png" alt="menu">
 </header>
+
 <body>
     <img src="../image/バナー/kv_03_pc.jpg" alt="kafun taisaku">
     <div class="introduction">
@@ -21,27 +23,155 @@
         <h2>PICK UP</h2>
         <div class="pickupbn">
             <div class="pickupbn1">
-                <img src="../image/ピックアップ/pickup_link_03.jpg" alt=""><a href="https://www.shiseido.co.jp/sw/onlinestore/campaign/dprogram/skincare2025/"><p>詳しい見る</p></a></div>
+                <img src="../image/ピックアップ/pickup_link_03.jpg" alt=""><a
+                    href="https://www.shiseido.co.jp/sw/onlinestore/campaign/dprogram/skincare2025/">
+                    <p>詳しい見る</p>
+                </a>
+            </div>
             <div class="pickupbn2">
-                <img src="../image/ピックアップ/pickup_link_04.jpg" alt=""><a href="https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/"><p>詳しい見る</p></a></div>
+                <img src="../image/ピックアップ/pickup_link_04.jpg" alt=""><a
+                    href="https://www.shiseido.co.jp/dprogram/product/lotion_emulsion/">
+                    <p>詳しい見る</p>
+                </a>
+            </div>
             <div class="pickupbn3">
-                <img src="../image/ピックアップ/pickup_link_05.jpg" alt=""><a href="https://www.shiseido.co.jp/dprogram/counter_allergy/"><p>詳しい見る</p></a></div>
+                <img src="../image/ピックアップ/pickup_link_05.jpg" alt=""><a
+                    href="https://www.shiseido.co.jp/dprogram/counter_allergy/">
+                    <p>詳しい見る</p>
+                </a>
+            </div>
             <div class="pickupbn4">
-                <img src="../image/ピックアップ/pickup_link_02.jpg" alt=""><a href="https://www.shiseido.co.jp/dprogram/yakusoku/"><p>詳しい見る</p></a></div>
+                <img src="../image/ピックアップ/pickup_link_02.jpg" alt=""><a
+                    href="https://www.shiseido.co.jp/dprogram/yakusoku/">
+                    <p>詳しい見る</p>
+                </a>
+            </div>
         </div>
     </div>
     <div class="category-container">
-        <div class="category-tabs">
-            <button class="tab-btn active">カテゴリーから選ぶ</button>
-            <button class="tab-btn">肌悩みから選ぶ</button>
-        </div>
-        <div class="category-content show">
-            <div class="product^grid">
-                <img src="../image/商品図/moisturing_lotion_box.jpg" alt="化粧水">
-                <a href="https://www.shiseido.co.jp/dprogram/product/?filter=%E5%8C%96%E7%B2%A7%E6%B0%B4"><p>化粧水</p></a>
+        <input type="radio" name="tab-item" id="tab-cat" checked>
+        <label class="tab-label" for="tab-cat">カテゴリーから選ぶ</label>
+
+        <input type="radio" name="tab-item" id="tab-trouble">
+        <label class="tab-label" for="tab-trouble">肌悩みから選ぶ</label>
+        <div class="cat-content-list" id="cat-content">
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="../image/商品図/moisturing_lotion_box.jpg" alt="化粧水">
+                    <a href="https://www.shiseido.co.jp/dprogram/product/?filter=%E5%8C%96%E7%B2%A7%E6%B0%B4">
+                        <p>化粧水 ></p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <img src="../image/商品図/moisturing_emulsion (1).webp" alt="乳液">
+                    <a href="https://www.shiseido.co.jp/dprogram/product/?filter=%E4%B9%B3%E6%B6%B2">
+                        <p>乳液 ></p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <img src="../image/商品図/cream.webp" alt="クリーム">
+                    <a href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0">
+                        <p>クリーム ></p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <img src="../image/商品図/main01.jpg" alt="美容液">
+                    <a href="https://www.shiseido.co.jp/dprogram/product/?filter=%E7%BE%8E%E5%AE%B9%E6%B6%B2">
+                        <p>美容液 ></p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <img src="../image/商品図/main01 (1).jpg" alt="洗顔料">
+                    <a href="https://www.shiseido.co.jp/dprogram/product/?filter=%E7%BE%8E%E5%AE%B9%E6%B6%B2">
+                        <p>洗顔料 ></p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <img src="../image/商品図/main01 (1).webp" alt="クレンジング">
+                    <a
+                        href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%83%A1%E3%82%A4%E3%82%AF%E8%90%BD%E3%81%A8%E3%81%97">
+                        <p>クレンジング ></p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <img src="../image/商品図/main01__8 (1).webp" alt="アレルバリア">
+                    <a
+                        href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%82%A2%E3%83%AC%E3%83%AB%E3%83%90%E3%83%AA%E3%82%A2">
+                        <p>アレルバリア ></p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <img src="../image/商品図/balancing_acne_trial_box.jpg" alt="トライアルセット">
+                    <a
+                        href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%83%88%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%AB%E3%82%BB%E3%83%83%E3%83%88">
+                        <p>トライアルセット ></p>
+                    </a>
+                </div>
             </div>
         </div>
+        <div class="cat-content-list" id="trouble-content">
+            <table class="trouble-item">
+                <tr>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E8%82%8C%E8%8D%92%E3%82%8C">
+                            <p>肌荒れ →</p>
+                        </a></td>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%82%AB%E3%82%B5%E3%82%AB%E3%82%B5%E3%83%BB%E4%B9%BE%E7%87%A5">
+                            <p>乾燥 →</p>
+                        </a>
+                </tr>
+                <tr>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%83%8F%E3%83%AA%E3%81%AE%E3%81%AA%E3%81%95">
+                            <p>ツヤ感 →</p>
+                        </a></td>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%83%8F%E3%83%AA%E3%81%AE%E3%81%AA%E3%81%95">
+                            <p>ハリ感 →</p>
+                        </a>
+                </tr>
+                <tr>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%82%B7%E3%83%9F%E3%83%BB%E3%81%9D%E3%81%B0%E3%81%8B%E3%81%99">
+                            <p>シミ・そばかす →</p>
+                        </a></td>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E6%AF%9B%E7%A9%B4%E3%81%AE%E7%9B%AE%E7%AB%8B%E3%81%A1">
+                            <p>毛穴ケア →</p>
+                        </a>
+                </tr>
+                <tr>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E3%83%8B%E3%82%AD%E3%83%93%E3%83%BB%E5%90%B9%E3%81%8D%E5%87%BA%E7%89%A9">
+                            <p>ニキビ →</p>
+                        </a></td>
+                    <td class="trouble-type"><a
+                            href="https://www.shiseido.co.jp/dprogram/product/?filter=%E8%8A%B1%E7%B2%89%E3%82%84%E5%AD%A3%E7%AF%80%E3%81%AE%E5%A4%89%E3%82%8F%E3%82%8A%E7%9B%AE%E3%81%AE%E8%82%8C%E8%8D%92%E3%82%8C">
+                            <p>花粉や季節の変わり目 →</p>
+                        </a>
+                </tr>
+            </table>
         </div>
-    <button>商品を探す</button>
-    <button>通販サイトで購入する</button>
+    </div>
+    <div class="exbtn">
+        <button class="check"><a href="https://www.shiseido.co.jp/dprogram/product/">商品を探す</a></button>
+        <button class="site"><a href="https://www.shiseido.co.jp/sw/onlinestore/premium/dprogram/">こちらで購入</a></button>
+    </div>
+    <!--<div class="others">
+        <table class="others-content">
+            <tr>
+                <td class="about-content">
+                    <h2>ｄプログラムとは</h2>
+                    <p>資生堂の50年以上にわたる敏感肌の皮膚科学研究をもとに、敏感肌に向き合い続けてきたdプログラムの想いや、愛用者の皆さまのリアルストーリーをご紹介します。</p><button
+                        class=""><a href="https://www.shiseido.co.jp/dprogram/about/">ｄプログラムとは</a></button>
+                </td>
+                <td class="about-bn">
+                    <img src="../image/about.webp"><a href="https://www.shiseido.co.jp/dprogram/about/"></a>
+                </td>
+            </tr>
+        </table>
+    </div>-->
+</body>
+
 </html>
